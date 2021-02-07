@@ -22,8 +22,3 @@ def list_dwarves(array)
 end
 
 
-hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
