@@ -12,7 +12,7 @@ end
 
 
 
-def list_dwarves(array)
+def list_dwarves()
   array.each_with_index do 
   
   
